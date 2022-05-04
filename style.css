@@ -168,8 +168,12 @@ H2{
  h3{
     white-space: pre-wrap;
 }
-.phone-button{
-    
+.phone-button button{
+    background-color: #1DA1F2;
+}
+.phone-button button:hover{
+    opacity: 0.33;
+    color :white ;
 }
 img {
 box-sizing: border-box;
@@ -184,4 +188,9 @@ width: 100%;
         box-sizing: border-box;
         height: 100%;
         }
+}
+@media (max-width: 800px) {
+    .apple-button p{
+    text-align: center;
+    }
 }
